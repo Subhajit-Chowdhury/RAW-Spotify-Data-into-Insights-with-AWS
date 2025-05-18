@@ -6,8 +6,8 @@ Ever wondered what stories your Spotify listening habits could tell? This projec
 ## 🏗️ Project Architecture
 The overall architecture illustrates how data flows from ingestion to visualization using AWS services:
 
-![Project Architecture](images/Project_Architecture.png) 
-*(Ensure this path is correct to your main architecture diagram)*
+![Project Architecture](https://github.com/Subhajit-Chowdhury/Spotify_Data-Engineering-using-AWS/blob/main/Project%20Architecture.png) 
+
 
 ## 🌊 Pipeline Flow & Data Journey
 The data engineering pipeline processes Spotify data through the following key stages:
@@ -23,29 +23,28 @@ The data engineering pipeline processes Spotify data through the following key s
         *   Structuring data for analytics.
     *   The detailed visual workflow for this Glue job is shown below:
 
-    ![AWS Glue ETL Job Diagram](images/GLUE_ETL.jpg) 
-    *(Ensure this path is correct to your detailed Glue ETL diagram)*
+    ![AWS Glue ETL Job Diagram](GLUE_ETL.jpg)\
     *Figure: The AWS Glue job graph showing S3 data sources (Albums, Artists, Tracks), join operations, the 'DropFields' transformation, and the final S3 data target.*
 
     *   The transformed and curated data is then loaded into a different **Amazon S3** bucket/prefix, serving as the "data warehouse zone."
 
-3.  **🗺️ Schema Discovery & Cataloging (AWS Glue Crawler):**
+4.  **🗺️ Schema Discovery & Cataloging (AWS Glue Crawler):**
     *   An **AWS Glue Crawler** runs against the S3 data warehouse zone.
     *   It infers the schema of the processed data and creates/updates table definitions in the **AWS Glue Data Catalog**.
 
-4.  **🔍 Querying & Analysis (Amazon Athena):**
+5.  **🔍 Querying & Analysis (Amazon Athena):**
     *   **Amazon Athena** uses the metadata from the AWS Glue Data Catalog to execute standard SQL queries directly on the data stored in the S3 data warehouse zone.
     *   This allows for ad-hoc analysis and data exploration without needing to load data into a traditional database. Query results can also be saved back to S3.
 
-5.  **📊 Visualization & Reporting (Amazon QuickSight):**
+6.  **📊 Visualization & Reporting (Amazon QuickSight):**
     *   **Amazon QuickSight** connects to Amazon Athena as a data source.
     *   It fetches query results to build interactive dashboards, reports, and visualizations, enabling insights 💡 into the Spotify data.
 
 ## 🎨 AWS Glue Studio Interface
 The ETL jobs are developed and managed within the AWS Glue Studio environment, which provides a comprehensive visual interface for designing and monitoring data integration workflows.
 
-![AWS Glue Visual ETL interface for Spotify Project](images/AWS_Glue.jpg) 
-*(Ensure this path is correct to your full Glue console screenshot)*
+![AWS Glue Visual ETL interface for Spotify Project](AWS_Glue.jpg) 
+
 *Figure: The AWS Glue console displaying the "Spotify Project." The "Visual" tab shows the ETL job graph, and the left-hand navigation provides access to various Glue features.*
 
 ## 🐍✨ Core ETL Script (`Spotify Project.py`)
@@ -129,12 +128,10 @@ The culmination of this data pipeline is an interactive dashboard built in Amazo
 *   How album popularity is distributed across the music catalog!
 *   Which artists command the highest track counts based on their popularity!
 *   The ebb and flow of track releases across different eras!
-*   *(Add 1-2 more exciting insights your dashboard reveals!)*
 
 **Dashboard Snapshot:**
 
-![QuickSight Dashboard - Overview](images/QS_Dash.png) 
-*(Ensure this path is correct to your QuickSight dashboard snapshot)*
+![QuickSight Dashboard - Overview](QS_Dash.png) 
 *(Caption: Overview of the main Spotify analytics dashboard, revealing interesting patterns in your music world!)*
 
 **🔗 View Full Dashboard (PDF):**
@@ -171,5 +168,3 @@ This project successfully demonstrates the construction of an end-to-end, server
 ## 📜 License
 This project's code is licensed under the MIT License. Please see the `LICENSE` file for more details.
 The dataset used is under the CC0: Public Domain license, as specified by its Kaggle source.
-
-*(If you don't have a LICENSE file for your code, you can remove the first sentence or choose a license.)*
