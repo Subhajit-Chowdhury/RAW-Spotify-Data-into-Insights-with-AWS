@@ -6,14 +6,13 @@
   <img src="https://img.shields.io/badge/Athena-Query%20Engine-yellow?logo=amazonaws&logoColor=white" />
   <img src="https://img.shields.io/badge/QuickSight-Data%20Visualization-informational?logo=amazonaws&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-Data%20Processing-green?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Real%20Time%20Project-Practical%20Usecase-brightgreen" />
-</p>
+  </p>
 
 ---
 
 ## 📌 Project Overview
 
-This project demonstrates a modern **end-to-end data pipeline** using AWS services with Spotify data. It simulates how real-time data from Spotify can be ingested, processed, queried, and visualized using:
+This project demonstrates a modern **end-to-end data pipeline** using AWS services with Spotify data. It simulates how a sample dataset from Spotify can be ingested, processed, queried, and visualized using:
 
 - **AWS S3** for storing raw & transformed data
 - **AWS Glue** for building scalable ETL jobs (using Python)
@@ -32,8 +31,7 @@ The focus is on using **serverless** and **pay-as-you-go AWS services** to minim
 | AWS Glue         | ETL jobs to clean/transform data |
 | AWS Athena       | Querying data with SQL           |
 | AWS QuickSight   | Interactive dashboards & charts  |
-| Python (boto3)   | Automation & scripting           |
-| Jupyter Notebook | Exploration & data validation    |
+| Python   | Automation & scripting           |
 
 ---
 
@@ -48,12 +46,10 @@ The focus is on using **serverless** and **pay-as-you-go AWS services** to minim
 
 ---
 
-## 📸 Sample Dashboard Preview
-
-> *(Add a screenshot image of your QuickSight dashboard below)*
+## 📸 QuickSight Dashboard
 
 ---
-![AWS Glue ETL Job Diagram](QS_Dash.pg)\
+> ![Dashboard](QuickSightDashboard.jpg)
 
 
 ## 📝 Introduction
@@ -190,9 +186,6 @@ The culmination of this data pipeline is an interactive dashboard built in Amazo
 ![QuickSight Dashboard - Overview](QS_Dash.png) 
 *(Caption: Overview of the main Spotify analytics dashboard, revealing interesting patterns in your music world!)*
 
-**🔗 View Full Dashboard (PDF):**
-*   The complete dashboard is available as a PDF document in this repository:
-    [`Spotify_QuickSight_Dashboard.pdf`](https://github.com/Subhajit-Chowdhury/Spotify_Data-Engineering-using-AWS/blob/main/Spot_QS-Dash.pdf)
 
 ## ⚙️ How to Run / Setup (High-Level)
 To replicate this project, you would typically follow these steps:
@@ -225,4 +218,35 @@ This project successfully demonstrates the construction of an end-to-end, server
 This project's code is licensed under the MIT License. Please see the `LICENSE` file for more details.
 The dataset used is under the CC0: Public Domain license, as specified by its Kaggle source.
 
-<img src="https://img.shields.io/badge/AWS%20Glue-ETL%20Pipeline-orange?logo=amazonaws&logoColor=white" />
+
+---
+
+## 🛠 How to Use This Project
+
+1. **Fork/Clone the Repo**
+2. Replace your own Spotify JSON export or streaming history
+3. Upload it to your own AWS S3 bucket
+4. Deploy the Glue ETL script (from `/scripts/`)
+5. Run Athena queries from provided notebook
+6. Connect QuickSight to Athena and build your dashboard!
+
+---
+
+## 💡 Learning Outcomes
+
+- Build and deploy your own **modern data lake**
+- Understand **AWS Glue, S3, Athena, and QuickSight**
+- Learn how to design **real-time pipelines** for analytics
+- Practice **serverless architecture** and data modeling
+
+---
+
+## 📬 Contact
+
+Created with ❤️ by [Subhajit Chowdhury](https://github.com/Subhajit-Chowdhury)  
+📧 Email: *er.subhajitchowdhury@gmail.com*  
+🔗 LinkedIn: [@subhajit-chowdhury](https://www.linkedin.com/in/subhajitch0wdhury/)
+
+---
+
+⭐️ **Give this repo a star** if it helped you learn something new!
