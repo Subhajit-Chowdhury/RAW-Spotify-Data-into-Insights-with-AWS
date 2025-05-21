@@ -8,7 +8,6 @@
   <img src="https://img.shields.io/badge/Python-Data%20Processing-green?logo=python&logoColor=white" />
   </p>
 
----
 
 ## 📌 Project Overview
 
@@ -21,7 +20,6 @@ This project demonstrates a modern **end-to-end data pipeline** using AWS servic
 
 The focus is on using **serverless** and **pay-as-you-go AWS services** to minimize cost and maximize scalability — perfect for real-world Data Engineering pipelines.
 
----
 
 ## ⚙️ Tech Stack & Tools
 
@@ -44,11 +42,10 @@ The focus is on using **serverless** and **pay-as-you-go AWS services** to minim
 - 📈 **Beautiful Dashboard** using QuickSight
 - 🔒 **Fully serverless**, scalable & cost-effective
 
----
 
 ## 📸 QuickSight Dashboard
 
----
+
 > ![Dashboard](QuickSightDashboard.jpg)
 
 
@@ -215,11 +212,13 @@ To replicate this project, you would typically follow these steps:
 This project successfully demonstrates the construction of an end-to-end, serverless data engineering pipeline on AWS for Spotify data analytics. By ingesting raw data, performing robust ETL transformations with AWS Glue and PySpark, enabling ad-hoc querying with Amazon Athena, and delivering insights through Amazon QuickSight, we've showcased a practical approach to turning data into valuable knowledge. This pipeline not only provides a framework for analyzing music trends but also serves as a testament to the power and flexibility of cloud-based data solutions.
 
 ## 📜 License
-This project's code is licensed under the MIT License. Please see the `LICENSE` file for more details.
+This project is licensed under the [MIT License](LICENSE).Please see the `LICENSE` file for more details.
 The dataset used is under the CC0: Public Domain license, as specified by its Kaggle source.
 
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!  
+Feel free to check the [issues page](https://github.com/Subhajit-Chowdhury/Spotify_Data-Engineering-using-AWS/issues) or submit a PR.
 
----
 
 ## 🛠 How to Use This Project
 
@@ -230,7 +229,6 @@ The dataset used is under the CC0: Public Domain license, as specified by its Ka
 5. Run Athena queries from provided notebook
 6. Connect QuickSight to Athena and build your dashboard!
 
----
 
 ## 💡 Learning Outcomes
 
@@ -239,7 +237,6 @@ The dataset used is under the CC0: Public Domain license, as specified by its Ka
 - Learn how to design **ETL pipelines** for analytics
 - Practice **serverless architecture** and data modeling
 
----
 
 ## 📬 Contact
 
@@ -247,6 +244,5 @@ Created with ❤️ by [Subhajit Chowdhury](https://github.com/Subhajit-Chowdhur
 📧 Email: *er.subhajitchowdhury@gmail.com*  
 🔗 LinkedIn: [@subhajit-chowdhury](https://www.linkedin.com/in/subhajitch0wdhury/)
 
----
 
 ⭐️ **Give this repo a star** if it helped you learn something new!
