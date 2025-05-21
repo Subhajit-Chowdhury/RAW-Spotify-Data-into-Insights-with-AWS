@@ -236,7 +236,7 @@ The dataset used is under the CC0: Public Domain license, as specified by its Ka
 
 - Build and deploy your own **modern data lake**
 - Understand **AWS Glue, S3, Athena, and QuickSight**
-- Learn how to design **real-time pipelines** for analytics
+- Learn how to design **ETL pipelines** for analytics
 - Practice **serverless architecture** and data modeling
 
 ---
