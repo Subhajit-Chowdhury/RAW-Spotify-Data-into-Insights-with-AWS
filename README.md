@@ -1,4 +1,60 @@
-# Spotify Data Analytics | AWS Data Engineering Project 🎵☁️
+<h1 align="center">🎧 Spotify Data Engineering Project on AWS 🚀</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AWS%20Glue-ETL%20Pipeline-orange?logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/S3-Data%20Storage-blue?logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Athena-Query%20Engine-yellow?logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/QuickSight-Data%20Visualization-informational?logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-Data%20Processing-green?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Real%20Time%20Project-Practical%20Usecase-brightgreen" />
+</p>
+
+---
+
+## 📌 Project Overview
+
+This project demonstrates a modern **end-to-end data pipeline** using AWS services with Spotify data. It simulates how real-time data from Spotify can be ingested, processed, queried, and visualized using:
+
+- **AWS S3** for storing raw & transformed data
+- **AWS Glue** for building scalable ETL jobs (using Python)
+- **AWS Athena** for serverless querying of large datasets
+- **AWS QuickSight** for intuitive and powerful dashboarding
+
+The focus is on using **serverless** and **pay-as-you-go AWS services** to minimize cost and maximize scalability — perfect for real-world Data Engineering pipelines.
+
+---
+
+## ⚙️ Tech Stack & Tools
+
+| Tool/Service     | Purpose                          |
+|------------------|----------------------------------|
+| AWS S3           | Raw & curated zone for data lake |
+| AWS Glue         | ETL jobs to clean/transform data |
+| AWS Athena       | Querying data with SQL           |
+| AWS QuickSight   | Interactive dashboards & charts  |
+| Python (boto3)   | Automation & scripting           |
+| Jupyter Notebook | Exploration & data validation    |
+
+---
+
+## 📊 Key Features
+
+- 🔄 **Automated ETL Pipeline** with AWS Glue (PySpark script)
+- 🧹 **Data Cleaning & Transformation** from raw Spotify JSON
+- 📁 **Raw + Curated Zone Architecture** on S3
+- 🕵️‍♂️ **Schema-on-Read** via Athena
+- 📈 **Beautiful Dashboard** using QuickSight
+- 🔒 **Fully serverless**, scalable & cost-effective
+
+---
+
+## 📸 Sample Dashboard Preview
+
+> *(Add a screenshot image of your QuickSight dashboard below)*
+
+---
+![AWS Glue ETL Job Diagram](QS_Dash.pg)\
+
 
 ## 📝 Introduction
 Ever wondered what stories your Spotify listening habits could tell? This project transforms raw Spotify data into powerful insights. We'll build a modern data pipeline on AWS, using S3 for storage, Glue for smart data processing, Athena for querying our music universe, and finally, QuickSight to bring those musical stories to life through vibrant visualizations. Get ready to unlock the power of your playlists!
@@ -168,3 +224,5 @@ This project successfully demonstrates the construction of an end-to-end, server
 ## 📜 License
 This project's code is licensed under the MIT License. Please see the `LICENSE` file for more details.
 The dataset used is under the CC0: Public Domain license, as specified by its Kaggle source.
+
+<img src="https://img.shields.io/badge/AWS%20Glue-ETL%20Pipeline-orange?logo=amazonaws&logoColor=white" />
