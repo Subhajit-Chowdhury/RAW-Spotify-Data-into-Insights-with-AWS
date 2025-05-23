@@ -55,8 +55,7 @@ Ever wondered what stories your Spotify listening habits could tell? This projec
 ## 🏗️ Project Architecture
 The overall architecture illustrates how data flows from ingestion to visualization using AWS services:
 
-![Project Architecture](https://github.com/Subhajit-Chowdhury/Spotify_Data-Engineering-using-AWS/blob/main/Project%20Architecture.png) 
-
+![Project Architecture](Spot_DE.drawio.png) 
 
 ## 🌊 Pipeline Flow & Data Journey
 The data engineering pipeline processes Spotify data through the following key stages:
