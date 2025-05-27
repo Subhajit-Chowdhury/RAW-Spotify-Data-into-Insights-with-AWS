@@ -1,4 +1,4 @@
-<h1 align="center">🎧 Spotify Data Engineering Project on AWS 🚀</h1>
+<h1 align="center">🎧 Turning Spotify Data into Insights: Building a Modern Data Pipeline on AWS 🚀</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/AWS%20Glue-ETL%20Pipeline-orange?logo=amazonaws&logoColor=white" />
